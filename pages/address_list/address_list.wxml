@@ -1,0 +1,7 @@
+<navigator wx:for="{{array}}" url="../../{{item.link}}" id="{{item.id}}"
+ class="address_list" > 
+<view class="lists">
+ <icon type="waiting" size="20"/><text> {{item.name}}</text>
+</view>
+</navigator>
+

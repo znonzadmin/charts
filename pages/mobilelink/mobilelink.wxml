@@ -1,0 +1,10 @@
+<view  class="linkman">
+<input placeholder="搜索"/>
+
+</view>
+<view wx:for="{{lists}}" class="lists">
+<image src="../../{{item.src}}" class="img"/>
+<text class="name">{{item.name}}</text>
+<text class="niktype">{{item.niktype}}</text>
+<text class="status{{item.status_type}}" data-status="{{item.status_type}}">{{item.status}}</text>
+</view>  

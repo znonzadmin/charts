@@ -1,0 +1,36 @@
+.list{
+    margin-top:10px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: #099;
+    border-bottom:#099 1px solid;
+}
+.address_list{
+    background-color: #fff;
+    color:#f0f;
+    border-bottom:#099;
+}
+icon{
+    font-size: 14px;
+    width: 22px;
+    height: 22px;
+}
+.lists{
+    border-top:1px solid #d3d3dc;
+    height: 44px;
+    line-height: 44px; 
+    font-size:14px;
+    position: relative
+}
+.lists icon{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.lists text{
+    position: absolute;
+    left: 40px;
+    top: 4px;
+    color: #494949;
+}

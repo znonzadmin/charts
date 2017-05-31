@@ -1,0 +1,25 @@
+<!--pages/friend.wxml-->
+<pages class="page">
+<view class="headimg">
+<image src="{{headImg}}"></image>
+<text class="username">{{userName}}</text>
+<text class="wchatname">{{wchatName}}</text>
+<text class="sex">男</text> 
+</view>
+<view class="tag">
+{{tag}}
+</view>
+<view class="area">
+{{area}}
+</view>
+<view class="photos">
+<text>{{photopaper.name}}</text>
+<image wx:for="{{photopaper.photoShow}}" src="item"></image>
+</view>
+<view class="more">
+{{more}}
+</view>
+<button class="sendmessage">{{sendMessage}}</button>
+<button class="vadioChat">{{vadioChat}}</button>
+</pages>
+

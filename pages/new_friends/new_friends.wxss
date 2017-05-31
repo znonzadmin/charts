@@ -1,0 +1,84 @@
+.lists{
+     background: #fff;
+     color: #000;
+     font-size: 12px;
+     border-bottom: 1px solid #d3d3dc;
+     height: 44px;
+     line-height:44px;
+     position:relative;
+     display: block;
+}
+
+
+.name{
+    color: #456;
+    top: 0px;
+    position: absolute;
+    left: 40px;
+    height: 22px;
+    line-height: 22px;
+
+}
+.niktype{
+    color: #019;
+    top:22px;
+    position: absolute;
+    left: 40px;
+    height: 22px;
+    line-height: 22px;
+}
+.status{
+    float: right;
+    font-size:12px;
+    height:22px;
+    position:absolute;
+    right: 20px;
+    color:#456;
+}
+.status0,.status1,.status2{
+    float: right;
+    font-size:12px;
+    height:22px;
+    position:absolute;
+    right: 20px;
+    color:#456;
+}
+.status0{
+    color:#f00;
+}
+.status1,.status2{
+    color:#456;
+}
+.img{
+    width:22px;
+    height:22px;
+    padding:6px;
+    position:absolute;
+    top: 5px;
+}
+.linkman input,.mobileman input{
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: center;
+    border:1px solid #99a;
+    border-radius: 2px;
+    width:80%;
+    margin:8px auto; 
+}
+.mobileman image{
+    width:22px;
+    height:22px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom:20px; 
+}
+.mobileman{
+    height: 120px;
+    line-height: 120px;
+    border: 1px solid #99a;
+    border-right: 0;
+    border-left:0;
+}
